@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post h3 {
+    margin: 0;
+}
+
+.post p {
+    margin-top: 5px;
+}
+
+#post-form input,
+#post-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+#post-form button {
+    padding: 5px 10px;
+}

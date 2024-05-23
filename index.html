@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BlogVista</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>BlogVista</h1>
+    </header>
+
+    <main>
+        <section id="blog-list">
+            <h2>Latest Posts</h2>
+            <ul id="post-list"></ul>
+        </section>
+
+        <section id="create-post">
+            <h2>What's on your mind today?</h2>
+            <form id="post-form">
+                <input type="text" id="post-title" placeholder="Title" required>
+                <textarea cols="30" rows="10" id="post-content" placeholder="Content" required></textarea>
+                <button type="submit">Post Blog</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
